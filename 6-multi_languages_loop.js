@@ -1,7 +1,6 @@
 let langs = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-let x = 0;
+let x;
 
-while(x < langs.length){
+for(x = 0; x < langs.length; x++){
     console.log(langs[x]);
-    x++;
-}
+};
