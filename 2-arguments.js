@@ -1,5 +1,5 @@
 const {argv} = require('node:process');
-let args = argv.slice(2)
+let args = argv.slice(2);
 
 if(args.length === 0){
     console.log("No argument");
